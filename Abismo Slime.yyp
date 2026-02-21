@@ -25,6 +25,7 @@
   "resources":[
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},
+    {"id":{"name":"obj_level","path":"objects/obj_level/obj_level.yy",},},
     {"id":{"name":"obj_pedras","path":"objects/obj_pedras/obj_pedras.yy",},},
     {"id":{"name":"obj_PlayerDialogo","path":"objects/obj_PlayerDialogo/obj_PlayerDialogo.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
