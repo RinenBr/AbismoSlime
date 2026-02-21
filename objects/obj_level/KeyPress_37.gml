@@ -1,3 +1,3 @@
 
 
-instance_create_layer(x, y, "Instances_1", obj_PlayerDialogo)
+instance_create_layer(x, y, "dialogo", obj_PlayerDialogo)
