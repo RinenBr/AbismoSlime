@@ -1,2 +1,2 @@
 
-image_speed = 1
+ataque = true
