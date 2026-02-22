@@ -44,3 +44,5 @@ if (global.carta_Selecionada = 3)
 		instance_destroy()
 	}
 }
+
+
