@@ -7,6 +7,6 @@ if (global.carta_Selecionada = 2)
 }
 else
 {
-	image_xscale = 1.6
+	image_xscale = 1.7
 	image_yscale = image_xscale
 }

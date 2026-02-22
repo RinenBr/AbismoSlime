@@ -7,3 +7,14 @@ global.carta1 = 0
 global.carta2 = 0
 global.carta3 = 0
 global.tamanhoCartas = 2.1
+
+
+global.carta1posicionada = false
+global.carta2posicionada = false
+global.carta3posicionada = false
+global.carta4posicionada = false
+global.carta5posicionada = false
+global.carta6posicionada = false
+global.carta7posicionada = false
+global.carta8posicionada = false
+global.carta9posicionada = false

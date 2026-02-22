@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_carta",
-    "path":"sprites/spr_carta/spr_carta.yy",
+    "name":"spr_carta2",
+    "path":"sprites/spr_carta2/spr_carta2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
