@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_barreiraUp",
+  "%Name":"obj_flecha",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_barreiraUp",
+  "name":"obj_flecha",
   "overriddenProperties":[],
   "parent":{
-    "name":"barreiras",
-    "path":"folders/objetos/barreiras.yy",
+    "name":"armas",
+    "path":"folders/objetos/armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barreira",
-    "path":"sprites/spr_barreira/spr_barreira.yy",
+    "name":"spr_flecha",
+    "path":"sprites/spr_flecha/spr_flecha.yy",
   },
   "spriteMaskId":null,
   "visible":true,
