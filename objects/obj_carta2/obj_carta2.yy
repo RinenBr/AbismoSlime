@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grid",
-  "eventList":[],
+  "%Name":"obj_carta2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_grid",
+  "name":"obj_carta2",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_grid",
-    "path":"sprites/spr_grid/spr_grid.yy",
+    "name":"spr_carta",
+    "path":"sprites/spr_carta/spr_carta.yy",
   },
   "spriteMaskId":null,
   "visible":true,

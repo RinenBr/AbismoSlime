@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"fase",
+    "path":"folders/sprites/fase.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
