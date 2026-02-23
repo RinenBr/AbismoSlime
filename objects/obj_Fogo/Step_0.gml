@@ -15,16 +15,19 @@ if (minhaLayer = 2 and obj_barreiraDown.x <= 0)
 
 if (ataque = true and minhaLayer = 0)
 {
+	particula = true
 	direction = point_direction(x, y, obj_barreiraUp.x, obj_barreiraUp.y)
 	image_angle = direction
 }
 if (ataque = true and minhaLayer = 1)
 {
+	particula = true
 	direction = point_direction(x, y, obj_barreiraMiddle.x, obj_barreiraMiddle.y)
 	image_angle = direction
 }
 if (ataque = true and minhaLayer = 2)
 {
+	particula = true
 	direction = point_direction(x, y, obj_barreiraDown.x, obj_barreiraDown.y)
 	image_angle = direction
 }

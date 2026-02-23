@@ -1,4 +1,5 @@
 
+particula = false
 minhaLayer = 0
 ataque = false
 
@@ -17,7 +18,7 @@ if (y >= 270)
 
 }
 
-image_xscale = 2.5
+image_xscale = 3
 image_yscale = image_xscale
 speed = 5
 direction = 90
