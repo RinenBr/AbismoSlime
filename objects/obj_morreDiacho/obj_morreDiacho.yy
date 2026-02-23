@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_espada",
+  "%Name":"obj_morreDiacho",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_morreDiacho","path":"objects/obj_morreDiacho/obj_morreDiacho.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_espada",
+  "name":"obj_morreDiacho",
   "overriddenProperties":[],
   "parent":{
-    "name":"armas",
-    "path":"folders/objetos/armas.yy",
+    "name":"objetos",
+    "path":"folders/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_espada",
-    "path":"sprites/spr_espada/spr_espada.yy",
+    "name":"spr_barreira",
+    "path":"sprites/spr_barreira/spr_barreira.yy",
   },
   "spriteMaskId":null,
   "visible":true,

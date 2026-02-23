@@ -70,6 +70,7 @@
     {"id":{"name":"obj_inimigo1Middle","path":"objects/obj_inimigo1Middle/obj_inimigo1Middle.yy",},},
     {"id":{"name":"obj_inimigo1up","path":"objects/obj_inimigo1up/obj_inimigo1up.yy",},},
     {"id":{"name":"obj_level","path":"objects/obj_level/obj_level.yy",},},
+    {"id":{"name":"obj_morreDiacho","path":"objects/obj_morreDiacho/obj_morreDiacho.yy",},},
     {"id":{"name":"obj_particula1","path":"objects/obj_particula1/obj_particula1.yy",},},
     {"id":{"name":"obj_particula2","path":"objects/obj_particula2/obj_particula2.yy",},},
     {"id":{"name":"obj_pedras","path":"objects/obj_pedras/obj_pedras.yy",},},

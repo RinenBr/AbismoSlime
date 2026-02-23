@@ -4,6 +4,7 @@ if (x < 384)
 	sprite_index = spr_inimigo1idle
 	x += 1
 }
+
 if (x < 448 and x >= 384 and global.grid7ocupada = false)
 {
 	sprite_index = spr_inimigo1idle
@@ -11,6 +12,28 @@ if (x < 448 and x >= 384 and global.grid7ocupada = false)
 	ataque = false
 }
 else if (x < 448 and x >= 384 and global.grid7ocupada = true)
+{
+	ataque = true
+}
+
+if (x < 540 and x >= 448 and global.grid8ocupada = false)
+{
+	sprite_index = spr_inimigo1idle
+	x += 1
+	ataque = false
+}
+else if (x < 540 and x >= 448 and global.grid8ocupada = true)
+{
+	ataque = true
+}
+
+if (x < 610 and x >= 540 and global.grid9ocupada = false)
+{
+	sprite_index = spr_inimigo1idle
+	x += 1
+	ataque = false
+}
+if (x < 610 and x >= 540 and global.grid9ocupada = true)
 {
 	ataque = true
 }
