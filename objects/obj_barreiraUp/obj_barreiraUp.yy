@@ -33,6 +33,9 @@
     "name":"spr_barreira",
     "path":"sprites/spr_barreira/spr_barreira.yy",
   },
-  "spriteMaskId":null,
-  "visible":true,
+  "spriteMaskId":{
+    "name":"spr_barreiracolisao",
+    "path":"sprites/spr_barreiracolisao/spr_barreiracolisao.yy",
+  },
+  "visible":false,
 }

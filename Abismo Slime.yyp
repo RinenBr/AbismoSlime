@@ -74,6 +74,7 @@
     {"id":{"name":"globais","path":"scripts/globais/globais.yy",},},
     {"id":{"name":"spr_arco","path":"sprites/spr_arco/spr_arco.yy",},},
     {"id":{"name":"spr_barreira","path":"sprites/spr_barreira/spr_barreira.yy",},},
+    {"id":{"name":"spr_barreiracolisao","path":"sprites/spr_barreiracolisao/spr_barreiracolisao.yy",},},
     {"id":{"name":"spr_carta","path":"sprites/spr_carta/spr_carta.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_espada","path":"sprites/spr_espada/spr_espada.yy",},},

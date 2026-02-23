@@ -5,5 +5,5 @@ if (timer = true)
 	timer = false
 	alarm[0] = 40
 	alarm[1] = 10
-	vida -= 50
+	vida -= global.danoEspada
 }

@@ -7,5 +7,6 @@ if (x < 384)
 
 if (vida <= 0)
 {
+	
 	instance_destroy()
 }

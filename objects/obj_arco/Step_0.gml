@@ -1,6 +1,5 @@
 
 
-
 //atirando
 if (image_index = 2)
 {

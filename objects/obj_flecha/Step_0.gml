@@ -14,3 +14,16 @@ if (x <= metade and minhaLayer = 2)
 	direction = point_direction(x, y, obj_barreiraDown.x + 5, obj_barreiraDown.y)
 	image_angle = direction + 180
 }
+
+if (minhaLayer = 0 and obj_barreiraUp.x <= 0)
+{
+	instance_destroy()
+}
+if (minhaLayer = 1 and obj_barreiraMiddle.x <= 0)
+{
+	instance_destroy()
+}
+if (minhaLayer = 2 and obj_barreiraDown.x <= 0)
+{
+	instance_destroy()
+}

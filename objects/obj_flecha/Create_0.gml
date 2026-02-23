@@ -32,3 +32,7 @@ if (y >= 270)
 	metade = obj_barreiraDown.x + valorzin + 20
 }
 
+
+if (minhaLayer = 0 and obj_barreiraUp.x <= 0) instance_destroy()
+if (minhaLayer = 1 and obj_barreiraMiddle.x <= 0) instance_destroy()
+if (minhaLayer = 2 and obj_barreiraDown.x <= 0) instance_destroy()

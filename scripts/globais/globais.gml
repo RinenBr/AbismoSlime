@@ -7,9 +7,12 @@ global.carta1 = 0
 global.carta2 = 0
 global.carta3 = 0
 global.tamanhoCartas = 2.1
+global.cartaDefensiva = false
 
 global.gridSelecionada = 0
 
+global.danoFlecha = 50
+global.danoEspada = 35
 
 global.carta1posicionada = false
 global.carta2posicionada = false
