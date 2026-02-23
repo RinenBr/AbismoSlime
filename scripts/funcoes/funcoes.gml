@@ -47,5 +47,11 @@ function posicionar()
 			global.carta_Selecionada = 0
 			instance_destroy(global.gridSelecionada)
 		}
+		if (obj_carta3.image_index = 2)
+		{
+			instance_create_layer(x, y, "slimes", obj_SlimeMago)
+			global.carta_Selecionada = 0
+			instance_destroy(global.gridSelecionada)
+		}
 	}
 }

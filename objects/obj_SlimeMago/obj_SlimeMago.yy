@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_carta2",
+  "%Name":"obj_SlimeMago",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_carta2",
+  "name":"obj_SlimeMago",
   "overriddenProperties":[],
   "parent":{
-    "name":"cartas",
-    "path":"folders/objetos/cartas.yy",
+    "name":"Slimes",
+    "path":"folders/objetos/Slimes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_carta",
-    "path":"sprites/spr_carta/spr_carta.yy",
+    "name":"spr_SlimeMago",
+    "path":"sprites/spr_SlimeMago/spr_SlimeMago.yy",
   },
   "spriteMaskId":null,
   "visible":true,

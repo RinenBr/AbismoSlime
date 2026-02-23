@@ -9,8 +9,8 @@
   "name":"obj_carta1",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"cartas",
+    "path":"folders/objetos/cartas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

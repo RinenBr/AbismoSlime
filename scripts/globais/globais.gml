@@ -13,6 +13,7 @@ global.gridSelecionada = 0
 
 global.danoFlecha = 50
 global.danoEspada = 35
+global.danoFogo = 60
 
 global.carta1posicionada = false
 global.carta2posicionada = false

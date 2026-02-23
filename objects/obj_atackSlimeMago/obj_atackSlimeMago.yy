@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_carta2",
+  "%Name":"obj_atackSlimeMago",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_carta2",
+  "name":"obj_atackSlimeMago",
   "overriddenProperties":[],
   "parent":{
-    "name":"cartas",
-    "path":"folders/objetos/cartas.yy",
+    "name":"objetos",
+    "path":"folders/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_carta",
-    "path":"sprites/spr_carta/spr_carta.yy",
+    "name":"spr_barreira",
+    "path":"sprites/spr_barreira/spr_barreira.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
