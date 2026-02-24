@@ -1,2 +1,2 @@
 
-show_debug_message(global.grid7ocupada)
+show_debug_message(global.pontuacao)

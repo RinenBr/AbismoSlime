@@ -3,7 +3,7 @@
 //atirando
 if (image_index = 2)
 {
-	instance_create_layer( x, y, "armas", obj_flecha)
+	instance_create_layer( x, y, "projeteis", obj_flecha)
 	image_index = 0
 }
 

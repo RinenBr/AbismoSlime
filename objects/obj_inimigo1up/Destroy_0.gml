@@ -1,4 +1,5 @@
 
+global.pontuacao += 1
 instance_create_layer(x, y, "armas", obj_particula1)
 instance_create_layer(x, y, "armas", obj_particula1)
 instance_create_layer(x, y, "armas", obj_particula1)

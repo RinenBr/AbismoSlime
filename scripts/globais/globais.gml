@@ -8,6 +8,8 @@ global.carta2 = 0
 global.carta3 = 0
 global.tamanhoCartas = 2.1
 global.cartaDefensiva = false
+global.onda_atual = 0
+global.pontuacao = 0
 
 global.gridSelecionada = 0
 
