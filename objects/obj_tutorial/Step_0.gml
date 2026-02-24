@@ -1,4 +1,5 @@
 
+show_debug_message(global.gridSelecionada)
 
 if (global.pontoDoDialogo = 1)
 {
@@ -14,5 +15,14 @@ if (global.pontoDoDialogo = 3)
 }
 if (global.pontoDoDialogo = 4)
 {
-	global.textoDialogo = "sou o antigo general do exercito slime, e vou te ajudar"
+	global.textoDialogo = "ah tabom, sou muito grato por-"
+}
+if (global.pontoDoDialogo = 5)
+{
+	global.textoDialogo = "não temos tempo para ficar conversando, posiciona isso aqui"
+	global.permissaoDialogo = false
+}
+if (global.pontoDoDialogo = 6)
+{
+	
 }

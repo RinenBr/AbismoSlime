@@ -2,6 +2,7 @@
 
 
 global.textoDialogo = "tá olhando meu script porque cara? o-õ"
+global.permissaoDialogo = true
 
 global.pontoDoDialogo = 0
 global.carta_Selecionada = 0
