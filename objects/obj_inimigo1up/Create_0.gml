@@ -1,4 +1,6 @@
-
+atacando = 1
+ataque = false
+timer2 = true
 timer = true
 image_xscale = 2.5
 image_yscale = image_xscale

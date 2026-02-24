@@ -100,6 +100,7 @@
     {"id":{"name":"spr_PlayerDialogo","path":"sprites/spr_PlayerDialogo/spr_PlayerDialogo.yy",},},
     {"id":{"name":"spr_SlimeArqueiro","path":"sprites/spr_SlimeArqueiro/spr_SlimeArqueiro.yy",},},
     {"id":{"name":"spr_SlimeMago","path":"sprites/spr_SlimeMago/spr_SlimeMago.yy",},},
+    {"id":{"name":"spr_SlimeSoldado_1","path":"sprites/spr_SlimeSoldado_1/spr_SlimeSoldado_1.yy",},},
     {"id":{"name":"spr_SlimeSoldado","path":"sprites/spr_SlimeSoldado/spr_SlimeSoldado.yy",},},
     {"id":{"name":"sprPlayerVisual","path":"sprites/sprPlayerVisual/sprPlayerVisual.yy",},},
   ],
