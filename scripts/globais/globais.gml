@@ -1,7 +1,9 @@
 
 
 
-global.textoDialogo = "eae meus bacãnudos"
+global.textoDialogo = "tá olhando meu script porque cara? o-õ"
+
+global.pontoDoDialogo = 0
 global.carta_Selecionada = 0
 global.carta1 = 0
 global.carta2 = 0
