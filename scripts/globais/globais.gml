@@ -15,6 +15,7 @@ global.onda_atual = -2
 global.pontuacao = 0
 global.esperaAtaqueInimigo1 = 120
 
+
 global.gridSelecionada = 0
 
 global.danoFlecha = 50
