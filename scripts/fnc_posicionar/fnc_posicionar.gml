@@ -64,6 +64,14 @@ function posicionar()
 			}
 			exit
 		}
+		if (obj_carta1.image_index = 3)
+		{
+			instance_create_layer(mouse_x, mouse_y, "slimes", obj_morreDiacho)
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta1)
+
+			exit
+		}
 	}
 	if (global.carta_Selecionada = 2)
 	{
