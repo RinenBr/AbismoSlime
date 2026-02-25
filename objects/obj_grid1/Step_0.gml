@@ -1,5 +1,5 @@
 
-carta = obj_carta1
+
 
 if (global.carta_Selecionada > 0 and global.grid1ocupada = false)
 {
