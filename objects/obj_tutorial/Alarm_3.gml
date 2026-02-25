@@ -1,0 +1,2 @@
+
+global.pontoDoDialogo += 1

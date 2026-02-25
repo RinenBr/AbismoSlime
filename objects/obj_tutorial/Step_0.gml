@@ -24,5 +24,38 @@ if (global.pontoDoDialogo = 5)
 }
 if (global.pontoDoDialogo = 6)
 {
-	
+	global.permissaoDialogo = true
+	global.textoDialogo = "entendeu? os slimes que você convoca atacam os inimigos"
+	if (timer = true)
+	{
+		timer = false
+		instance_create_layer(x, y, "dialogo", obj_GeneralDialogo_1)
+	}
+}
+if (global.pontoDoDialogo = 7)
+{
+	global.textoDialogo = "entendi!"
+}
+if (global.pontoDoDialogo = 8)
+{
+	global.permissaoDialogo = false
+	global.textoDialogo = "há varios tipos de slimes"
+}
+if (global.pontoDoDialogo = 9)
+{
+	global.permissaoDialogo = true
+	global.textoDialogo = "muito bem, estamos sem tempo"
+	if (timer = false)
+	{
+		timer = true
+		instance_create_layer(x, y, "dialogo", obj_GeneralDialogo_1)
+	}
+}
+if (global.pontoDoDialogo = 10)
+{
+	global.textoDialogo = "os monstros do mundo maligno estão vindo né"
+}
+if (global.pontoDoDialogo = 11)
+{
+	global.textoDialogo = "entra no portal e não deixa nenhum monstro vim para cá"
 }

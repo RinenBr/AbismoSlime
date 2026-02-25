@@ -9,10 +9,11 @@ global.carta_Selecionada = 0
 global.carta1 = 0
 global.carta2 = 0
 global.carta3 = 0
-global.tamanhoCartas = 2.1
+global.tamanhoCartas = 3.5
 global.cartaDefensiva = false
-global.onda_atual = 0
+global.onda_atual = -3
 global.pontuacao = 0
+global.esperaAtaqueInimigo1 = 120
 
 global.gridSelecionada = 0
 

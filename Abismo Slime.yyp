@@ -83,7 +83,8 @@
     {"id":{"name":"obj_visor_onda","path":"objects/obj_visor_onda/obj_visor_onda.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
-    {"id":{"name":"funcoes","path":"scripts/funcoes/funcoes.yy",},},
+    {"id":{"name":"fnc_cartas","path":"scripts/fnc_cartas/fnc_cartas.yy",},},
+    {"id":{"name":"fnc_posicionar","path":"scripts/fnc_posicionar/fnc_posicionar.yy",},},
     {"id":{"name":"globais","path":"scripts/globais/globais.yy",},},
     {"id":{"name":"spr_arco","path":"sprites/spr_arco/spr_arco.yy",},},
     {"id":{"name":"spr_barreira","path":"sprites/spr_barreira/spr_barreira.yy",},},
@@ -117,8 +118,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

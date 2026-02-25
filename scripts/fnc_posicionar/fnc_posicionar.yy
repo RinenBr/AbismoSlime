@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"funcoes",
+  "%Name":"fnc_posicionar",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"funcoes",
+  "name":"fnc_posicionar",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",
