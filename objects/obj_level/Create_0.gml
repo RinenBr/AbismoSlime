@@ -1,2 +1,3 @@
 
 randomise()
+timer = true

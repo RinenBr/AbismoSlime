@@ -11,7 +11,7 @@ global.carta2 = 0
 global.carta3 = 0
 global.tamanhoCartas = 3.5
 global.cartaDefensiva = false
-global.onda_atual = -3
+global.onda_atual = -2
 global.pontuacao = 0
 global.esperaAtaqueInimigo1 = 120
 
