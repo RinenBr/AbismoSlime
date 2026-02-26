@@ -70,6 +70,7 @@
     {"id":{"name":"obj_grid7","path":"objects/obj_grid7/obj_grid7.yy",},},
     {"id":{"name":"obj_grid8","path":"objects/obj_grid8/obj_grid8.yy",},},
     {"id":{"name":"obj_grid9","path":"objects/obj_grid9/obj_grid9.yy",},},
+    {"id":{"name":"obj_info","path":"objects/obj_info/obj_info.yy",},},
     {"id":{"name":"obj_inimigo1Down","path":"objects/obj_inimigo1Down/obj_inimigo1Down.yy",},},
     {"id":{"name":"obj_inimigo1Middle","path":"objects/obj_inimigo1Middle/obj_inimigo1Middle.yy",},},
     {"id":{"name":"obj_inimigo1up","path":"objects/obj_inimigo1up/obj_inimigo1up.yy",},},
