@@ -25,6 +25,7 @@ if (global.pontuacao >= 36 and global.pontuacao < 50 and timer = false)
 {
 	timer = true
 	global.onda_atual = 4
+	alarm [5] = 60
 
 }
 if (global.pontuacao >= 51 and global.pontuacao < 65 and timer = true)

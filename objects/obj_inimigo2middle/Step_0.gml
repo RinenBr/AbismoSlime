@@ -6,20 +6,20 @@ if (x >= 672)
 
 if (valor = true)
 {
-	x += 0.6
+	x += 0.5
 	exit
 }
 
 
 if (x < 250)
 {
-	x += 0.6
+	x += 0.5
 }
 else if (x >= 250)
 {
 	if (global.grid4ocupada = false and global.grid5ocupada = false and global.grid6ocupada = false)
 	{
-		x += 0.6
+		x += 0.5
 		trava = true
 	}
 	else if (x >= 250 and timer2 = true)

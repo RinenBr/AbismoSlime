@@ -1,2 +1,5 @@
 
-obj_barreiraUp.x = x + 5
+if (obj_barreiraMiddle.x < x)
+{
+	obj_barreiraMiddle.x = x
+}
