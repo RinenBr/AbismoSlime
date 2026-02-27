@@ -32,3 +32,15 @@ if (global.onda_atual = 7)
 {
 	image_index = 7
 }
+if (global.onda_atual = 8)
+{
+	image_index = 8
+}
+if (global.onda_atual = 9)
+{
+	image_index = 9
+}
+if (global.onda_atual = 10)
+{
+	image_index = 10
+}

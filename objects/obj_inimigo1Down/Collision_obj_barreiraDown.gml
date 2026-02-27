@@ -1,2 +1,2 @@
 
-obj_barreiraDown.x = x + 5
+obj_barreiraDown.x = x + 10

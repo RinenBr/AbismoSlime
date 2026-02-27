@@ -1,4 +1,6 @@
 
+if (y > 288) exit
+
 obj_info.x = x
 obj_info.y = 180
 

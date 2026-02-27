@@ -1,5 +1,7 @@
 
+global.destino = rm_morte
 
+layer_sequence_create("sequences", 0, 0, sqn_para_o_abismo)
 
 global.grid1ocupada = false
 global.grid2ocupada = false

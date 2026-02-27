@@ -14,6 +14,10 @@ global.cartaDefensiva = false
 global.onda_atual = -2
 global.pontuacao = 0
 global.esperaAtaqueInimigo1 = 120
+global.vidaGeral = 10
+global.destino = rm_jogo
+global.chegaDeDialogo = false
+global.jaFoiCarta = true
 
 
 
@@ -22,7 +26,7 @@ global.gridSelecionada = 0
 global.danoFlecha = 50
 global.danoEspada = 35
 global.danoFogo = 100
-global.danoChamas = 10
+global.danoChamas = 15
 
 global.carta1posicionada = false
 global.carta2posicionada = false

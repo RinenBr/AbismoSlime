@@ -1,2 +1,2 @@
 
-obj_barreiraMiddle.x = x + 5
+obj_barreiraMiddle.x = x + 10

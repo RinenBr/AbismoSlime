@@ -1,0 +1,1 @@
+global.destino = rm_jogo

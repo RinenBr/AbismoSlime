@@ -1,5 +1,5 @@
 
-show_debug_message(global.gridSelecionada)
+
 
 if (global.pontoDoDialogo = 1)
 {

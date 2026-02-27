@@ -1,6 +1,7 @@
 atacando = 1
 ataque = false
 timer2 = true
+timer3 = true
 timerFlamejante = true
 timer = true
 image_xscale = 2.5

@@ -1,2 +1,2 @@
 
-obj_barreiraUp.x = x + 5
+obj_barreiraUp.x = x + 10
