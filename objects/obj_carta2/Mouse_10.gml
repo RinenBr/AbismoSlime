@@ -19,3 +19,7 @@ if (image_index = 3)
 	obj_info.x = -128
 	obj_info.y = 0
 }
+if (image_index = 4)
+{
+	obj_info.sprite_index = spr_infoFlamejante
+}
