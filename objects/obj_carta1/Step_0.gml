@@ -1,5 +1,5 @@
 
-
+image_index = 4
 
 if (y > 288)
 {

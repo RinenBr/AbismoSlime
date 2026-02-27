@@ -22,10 +22,11 @@ global.gridSelecionada = 0
 global.danoFlecha = 50
 global.danoEspada = 35
 global.danoFogo = 100
+global.danoChamas = 10
 
 global.carta1posicionada = false
 global.carta2posicionada = false
-global.carta3posicionada = false
+//global.carta3posicionada = false
 global.carta4posicionada = false
 global.carta5posicionada = false
 global.carta6posicionada = false
