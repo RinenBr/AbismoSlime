@@ -37,5 +37,5 @@
     "name":"spr_barreiracolisao",
     "path":"sprites/spr_barreiracolisao/spr_barreiracolisao.yy",
   },
-  "visible":true,
+  "visible":false,
 }
