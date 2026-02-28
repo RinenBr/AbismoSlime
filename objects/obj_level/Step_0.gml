@@ -1,5 +1,8 @@
 
-
+if (global.onda_atual = 11)
+{
+	global.travarInimigos = true
+}
 
 
 // onda/nivel

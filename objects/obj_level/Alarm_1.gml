@@ -1,4 +1,7 @@
 
+
+if (global.travarInimigos = true) exit
+
 RandomLayer = choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down)
 
 alarm[2] = 40

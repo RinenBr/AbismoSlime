@@ -19,6 +19,7 @@ global.destino = rm_jogo
 global.chegaDeDialogo = false
 global.jaFoiCarta = true
 global.bossFoiInvocado = false
+global.travarInimigos = false
 
 
 global.gridSelecionada = 0
@@ -28,7 +29,7 @@ global.danoEspada = 35
 global.danoFogo = 100
 global.danoChamas = 25
 
-global.danoPicareta = 15
+global.danoPicareta = 20
 
 global.carta1posicionada = false
 global.carta2posicionada = false
