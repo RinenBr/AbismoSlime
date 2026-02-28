@@ -1,4 +1,5 @@
 
+draw_set_font(fnt_dialogo)
 
 timer = false
 

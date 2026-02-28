@@ -1,4 +1,7 @@
 
+
+
+somInimigo()
 if (x < 672)
 {
 	global.pontuacao += 1

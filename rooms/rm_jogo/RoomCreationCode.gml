@@ -2,6 +2,7 @@
 global.destino = rm_morte
 
 layer_sequence_create("sequences", 0, 0, sqn_para_o_abismo)
+audio_play_sound(snd_cartas, 0, 0)
 
 global.grid1ocupada = false
 global.grid2ocupada = false

@@ -1,8 +1,11 @@
 
 if (global.permissaoDialogo = true)
 {
-	global.pontoDoDialogo += 1
-	instance_create_layer(x, y, "dialogo", obj_GeneralDialogo_1)
+	if (global.chegaDeDialogo = false)
+	{
+		instance_create_layer(x, y, "dialogo", obj_GeneralDialogo_1)
+		global.pontoDoDialogo += 1
+	}
 }
 
 //final
@@ -21,5 +24,5 @@ if (global.textoDialogo = "mas quem... oque nós vamos fazer?")
 }
 if (global.textoDialogo = "QUE?")
 {
-	global.textoDialogo = "todos devemos sair daqui do abismo, ANDEM, TODOS VOLTEM"
+	global.textoDialogo = "todos devemos sair do abismo, ANDEM, TODOS VOLTEM"
 }

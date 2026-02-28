@@ -1,4 +1,8 @@
 
+somInimigo()
+somInimigo()
+somInimigo()
+
 global.bossFoiInvocado = false
 instance_create_layer(x, y, "projeteis", obj_particulaBoss)
 instance_create_layer(x, y, "projeteis", obj_particulaBoss)

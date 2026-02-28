@@ -1,6 +1,7 @@
 
 if (timer = true)
 {
+	somSlime()
 	timer = false
 	vida -= 100
 	alarm[0] = 60

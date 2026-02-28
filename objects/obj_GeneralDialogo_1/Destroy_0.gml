@@ -44,7 +44,7 @@ if (global.textoDialogo = "vamos tentar explodir o portal")
 {
 	global.textoDialogo = "QUE?"
 }
-if (global.textoDialogo = "todos devemos sair daqui do abismo, ANDEM, TODOS VOLTEM")
+if (global.textoDialogo = "todos devemos sair do abismo, ANDEM, TODOS VOLTEM")
 {
 	global.chegaDeDialogo = true
 	global.destino = rm_final

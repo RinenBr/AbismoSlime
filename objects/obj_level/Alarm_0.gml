@@ -28,22 +28,22 @@ if (global.onda_atual = 5)
 if (global.onda_atual = 6)
 {
 	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down))
-	alarm[0] = random_range(150, 300)
+	alarm[0] = random_range(140, 290)
 }
 if (global.onda_atual = 7)
 {
 	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down))
-	alarm[0] = random_range(150, 270)
+	alarm[0] = random_range(140, 260)
 }
 if (global.onda_atual = 8)
 {
 	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down))
-	alarm[0] = random_range(120, 270)
+	alarm[0] = random_range(110, 260)
 }
 if (global.onda_atual = 9)
 {
 	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down))
-	alarm[0] = random_range(120, 240)
+	alarm[0] = random_range(110, 230)
 }
 if (global.onda_atual = 10)
 {
@@ -54,5 +54,5 @@ if (global.onda_atual = 10)
 		global.bossFoiInvocado = true
 	}
 	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down, obj_inimigo2up, obj_inimigo2middle, obj_inimigo2down))
-	alarm[0] = random_range(210, 330)
+	alarm[0] = random_range(200, 320)
 }
