@@ -28,7 +28,7 @@ global.danoEspada = 35
 global.danoFogo = 100
 global.danoChamas = 25
 
-global.danoPicareta = 10
+global.danoPicareta = 15
 
 global.carta1posicionada = false
 global.carta2posicionada = false

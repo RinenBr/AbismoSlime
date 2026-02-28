@@ -3,7 +3,7 @@
 
 timer = false
 
-
+draw_set_colour(c_white)
 
 x = 672
 y = 277
