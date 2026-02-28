@@ -14,7 +14,12 @@ if (global.carta_Selecionada = 3)
 	carta = obj_carta3
 }
 
-if (image_alpha = 1)
+if (carta.image_index = 5 and image_alpha = 1)
+{
+	global.gridSelecionada = obj_grid8
+	posicionar()
+}
+else if (image_alpha = 1)
 {
 	global.gridSelecionada = obj_grid8
 	global.grid8ocupada = true

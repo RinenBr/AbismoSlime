@@ -13,6 +13,7 @@ function posicionar()
 	
 	
 	// posicionar
+	//carta 1
 	if (global.carta_Selecionada = 1)
 	{
 		if (obj_carta1.image_index = 0)
@@ -92,7 +93,39 @@ function posicionar()
 			}
 			exit
 		}
+		if (obj_carta1.image_index = 5)
+		{
+			if (global.grid1ocupada = false)
+			{
+				instance_create_layer(obj_grid1.x, obj_grid1.y, "slimes", obj_SlimeFantasma)
+				global.grid1ocupada = true
+			}
+			if (global.grid4ocupada = false)
+			{
+				instance_create_layer(obj_grid4.x, obj_grid4.y, "slimes", obj_SlimeFantasma)
+				global.grid4ocupada = true
+			}
+			if (global.grid7ocupada = false)
+			{
+				instance_create_layer(obj_grid7.x, obj_grid7.y, "slimes", obj_SlimeFantasma)
+				global.grid7ocupada = true
+			}
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta1)
+			if (room = rm_jogo)
+			{
+				instance_destroy(obj_carta2)
+				instance_destroy(obj_carta3)
+				global.jaFoiCarta = true
+				if (global.onda_atual < 0)
+				{
+					cartas()
+				}
+			}
+			exit
+		}
 	}
+	//carta 2
 	if (global.carta_Selecionada = 2)
 	{
 		if (obj_carta2.image_index = 0)
@@ -171,7 +204,39 @@ function posicionar()
 			}
 			exit
 		}
+		if (obj_carta2.image_index = 5)
+		{
+			if (global.grid1ocupada = false)
+			{
+				instance_create_layer(obj_grid1.x, obj_grid1.y, "slimes", obj_SlimeFantasma)
+				global.grid1ocupada = true
+			}
+			if (global.grid4ocupada = false)
+			{
+				instance_create_layer(obj_grid4.x, obj_grid4.y, "slimes", obj_SlimeFantasma)
+				global.grid4ocupada = true
+			}
+			if (global.grid7ocupada = false)
+			{
+				instance_create_layer(obj_grid7.x, obj_grid7.y, "slimes", obj_SlimeFantasma)
+				global.grid7ocupada = true
+			}
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta2)
+			if (room = rm_jogo)
+			{
+				instance_destroy(obj_carta1)
+				instance_destroy(obj_carta3)
+				global.jaFoiCarta = true
+				if (global.onda_atual < 0)
+				{
+					cartas()
+				}
+			}
+			exit
+		}
 	}
+	//carta 3
 	if (global.carta_Selecionada = 3)
 	{
 		if (obj_carta3.image_index = 0)
@@ -236,6 +301,37 @@ function posicionar()
 		if (obj_carta3.image_index = 4)
 		{
 			instance_create_layer(global.gridSelecionada.x, global.gridSelecionada.y, "slimes", obj_SlimeFlamejante)
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta3)
+			if (room = rm_jogo)
+			{
+				instance_destroy(obj_carta2)
+				instance_destroy(obj_carta1)
+				global.jaFoiCarta = true
+				if (global.onda_atual < 0)
+				{
+					cartas()
+				}
+			}
+			exit
+		}
+		if (obj_carta3.image_index = 5)
+		{
+			if (global.grid1ocupada = false)
+			{
+				instance_create_layer(obj_grid1.x, obj_grid1.y, "slimes", obj_SlimeFantasma)
+				global.grid1ocupada = true
+			}
+			if (global.grid4ocupada = false)
+			{
+				instance_create_layer(obj_grid4.x, obj_grid4.y, "slimes", obj_SlimeFantasma)
+				global.grid4ocupada = true
+			}
+			if (global.grid7ocupada = false)
+			{
+				instance_create_layer(obj_grid7.x, obj_grid7.y, "slimes", obj_SlimeFantasma)
+				global.grid7ocupada = true
+			}
 			global.carta_Selecionada = 0
 			instance_destroy(obj_carta3)
 			if (room = rm_jogo)
