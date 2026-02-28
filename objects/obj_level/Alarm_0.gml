@@ -47,6 +47,11 @@ if (global.onda_atual = 9)
 }
 if (global.onda_atual = 10)
 {
-	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down))
-	alarm[0] = random_range(90, 240)
+	if (valor = true)
+	{
+		valor = false
+		instance_create_layer(x, y, "inimigos2", obj_Boss)
+		global.bossFoiInvocado = true
+	}
+	instance_create_layer(x, y, "inimigos2", choose(obj_inimigo1up, obj_inimigo1Middle, obj_inimigo1Down, obj_inimigo2up, obj_inimigo2middle, obj_inimigo2down))
 }

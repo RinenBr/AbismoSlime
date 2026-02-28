@@ -19,8 +19,8 @@
   "name":"obj_inimigo2down",
   "overriddenProperties":[],
   "parent":{
-    "name":"inimigos",
-    "path":"folders/objetos/inimigos.yy",
+    "name":"inimigo2",
+    "path":"folders/objetos/inimigos/inimigo2.yy",
   },
   "parentObjectId":null,
   "persistent":false,

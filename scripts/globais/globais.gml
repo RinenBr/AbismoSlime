@@ -18,7 +18,7 @@ global.vidaGeral = 10
 global.destino = rm_jogo
 global.chegaDeDialogo = false
 global.jaFoiCarta = true
-
+global.bossFoiInvocado = false
 
 
 global.gridSelecionada = 0

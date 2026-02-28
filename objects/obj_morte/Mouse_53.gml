@@ -14,6 +14,7 @@ global.onda_atual = -2
 global.pontuacao = 0
 global.esperaAtaqueInimigo1 = 120
 global.vidaGeral = 10
+global.bossFoiInvocado = false
 
 
 
