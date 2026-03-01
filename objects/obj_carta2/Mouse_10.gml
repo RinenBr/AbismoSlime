@@ -25,3 +25,7 @@ if (image_index = 4)
 {
 	obj_info.sprite_index = spr_infoFlamejante
 }
+if (image_index = 5)
+{
+	obj_info.sprite_index = spr_infoFantasma
+}

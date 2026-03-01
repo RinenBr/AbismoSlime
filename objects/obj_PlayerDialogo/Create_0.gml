@@ -1,4 +1,10 @@
 
+if (global.textoDialogo = "todos devemos sair do abismo, ANDEM, TODOS VOLTEM")
+{
+	instance_destroy()
+	global.chegaDeDialogo = true
+}
+
 draw_set_font(fnt_dialogo)
 
 timer = false

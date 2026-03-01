@@ -8,6 +8,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_SlimeSoldado","path":"objects/obj_SlimeSoldado/obj_SlimeSoldado.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_SlimeFlamejante","path":"objects/obj_SlimeFlamejante/obj_SlimeFlamejante.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_SlimeFantasma","path":"objects/obj_SlimeFantasma/obj_SlimeFantasma.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_tiroInimigo2",

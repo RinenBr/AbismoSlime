@@ -1,5 +1,5 @@
 
-if (image_index = 5)
+if (image_index = 13)
 {
 	
 global.textoDialogo = "tá olhando meu script porque cara? o-õ"
