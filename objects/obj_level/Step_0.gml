@@ -78,27 +78,32 @@ if (global.pontuacao > 4 and global.pontuacao < 10 and timer2 = true)
 if (global.pontuacao >= 11 and global.pontuacao < 20 and timer2 = false)
 {
 	timer2 = true
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
 	cartas()
 }
 if (global.pontuacao >= 21 and global.pontuacao < 30 and timer2 = true)
 {
 	timer2 = false
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
 	cartas()
 }
 if (global.pontuacao >= 31 and global.pontuacao < 40 and timer2 = false)
 {
 	timer2 = true
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
 	cartas()
 }
 if (global.pontuacao >= 51 and global.pontuacao < 60 and timer2 = true)
 {
 	timer2 = false
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
 	cartas()
 }
 
 if (global.pontuacao >= 61 and global.pontuacao < 70 and timer2 = false)
 {
 	timer2 = true
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
 	cartas()
 }
 if (global.pontuacao >= 71 and global.pontuacao < 80 and timer2 = true)
@@ -132,6 +137,18 @@ if (global.pontuacao >= 111 and global.pontuacao < 120 and timer2 = true)
 	cartas()
 }
 if (global.pontuacao >= 121 and global.pontuacao < 130 and timer2 = false)
+{
+	timer2 = true
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
+	cartas()
+}
+if (global.pontuacao >= 131 and global.pontuacao < 140 and timer2 = true)
+{
+	timer2 = false
+	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
+	cartas()
+}
+if (global.pontuacao >= 141 and global.pontuacao < 150 and timer2 = false)
 {
 	timer2 = true
 	if (global.grid1ocupada and global.grid2ocupada and global.grid3ocupada and global.grid4ocupada and global.grid5ocupada and global.grid6ocupada and global.grid7ocupada and global.grid8ocupada and global.grid9ocupada) exit
