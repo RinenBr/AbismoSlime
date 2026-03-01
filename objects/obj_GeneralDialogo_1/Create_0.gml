@@ -1,4 +1,6 @@
 
+if (global.bloquear = true) speed = -6
+
 draw_set_font(fnt_dialogo)
 
 timer = false

@@ -124,6 +124,23 @@ function posicionar()
 			}
 			exit
 		}
+		if (obj_carta1.image_index = 6)
+		{
+			instance_create_layer(global.gridSelecionada.x, global.gridSelecionada.y, "slimes", obj_SlimeGuarda)
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta1)
+			if (room = rm_jogo)
+			{
+				instance_destroy(obj_carta2)
+				instance_destroy(obj_carta3)
+				global.jaFoiCarta = true
+					if (global.onda_atual < 0)
+					{
+						cartas()
+					}
+			}
+			exit
+		}
 	}
 	//carta 2
 	if (global.carta_Selecionada = 2)
@@ -235,6 +252,23 @@ function posicionar()
 			}
 			exit
 		}
+		if (obj_carta2.image_index = 6)
+		{
+			instance_create_layer(global.gridSelecionada.x, global.gridSelecionada.y, "slimes", obj_SlimeGuarda)
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta2)
+			if (room = rm_jogo)
+			{
+				instance_destroy(obj_carta1)
+				instance_destroy(obj_carta3)
+				global.jaFoiCarta = true
+					if (global.onda_atual < 0)
+					{
+						cartas()
+					}
+			}
+			exit
+		}
 	}
 	//carta 3
 	if (global.carta_Selecionada = 3)
@@ -343,6 +377,23 @@ function posicionar()
 				{
 					cartas()
 				}
+			}
+			exit
+		}
+				if (obj_carta3.image_index = 6)
+		{
+			instance_create_layer(global.gridSelecionada.x, global.gridSelecionada.y, "slimes", obj_SlimeGuarda)
+			global.carta_Selecionada = 0
+			instance_destroy(obj_carta3)
+			if (room = rm_jogo)
+			{
+				instance_destroy(obj_carta2)
+				instance_destroy(obj_carta1)
+				global.jaFoiCarta = true
+					if (global.onda_atual < 0)
+					{
+						cartas()
+					}
 			}
 			exit
 		}

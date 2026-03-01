@@ -29,3 +29,7 @@ if (image_index = 5)
 {
 	obj_info.sprite_index = spr_infoFantasma
 }
+if (image_index = 6)
+{
+	obj_info.sprite_index = spr_infoGuarda
+}

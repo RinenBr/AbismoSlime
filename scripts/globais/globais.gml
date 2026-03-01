@@ -3,6 +3,7 @@ audio_play_sound(snd_musica, 0, 1)
 
 global.textoDialogo = "tá olhando meu script porque cara? o-õ"
 global.permissaoDialogo = true
+global.modoInfinito = false
 
 global.pontoDoDialogo = 0
 global.carta_Selecionada = 0

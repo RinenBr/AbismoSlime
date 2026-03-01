@@ -39,7 +39,7 @@ if (global.pontoDoDialogo = 7)
 if (global.pontoDoDialogo = 8)
 {
 	global.permissaoDialogo = false
-	global.textoDialogo = "há varios tipos de slimes"
+	global.textoDialogo = "há varios tipos de slimes, arqueiros atiram de longe"
 }
 if (global.pontoDoDialogo = 9)
 {

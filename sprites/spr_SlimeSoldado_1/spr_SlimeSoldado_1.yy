@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Slimes",
-    "path":"folders/sprites/Slimes.yy",
+    "name":"SlimeHits",
+    "path":"folders/sprites/Slimes/SlimeHits.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

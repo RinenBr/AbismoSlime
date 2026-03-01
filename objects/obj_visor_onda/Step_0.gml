@@ -44,3 +44,27 @@ if (global.onda_atual = 10)
 {
 	image_index = 10
 }
+if (global.onda_atual = 11)
+{
+	image_index = 11
+}
+if (global.onda_atual = 12)
+{
+	image_index = 12
+}
+if (global.onda_atual = 13)
+{
+	image_index = 13
+}
+if (global.onda_atual = 14)
+{
+	image_index = 14
+}
+if (global.onda_atual = 15)
+{
+	image_index = 15
+}
+if (global.onda_atual >= 16)
+{
+	image_index = 16
+}
