@@ -9,8 +9,11 @@ if (global.permissaoDialogo = true)
 {
 	if (global.chegaDeDialogo = false)
 	{
-	instance_create_layer(x, y, "dialogo", obj_PlayerDialogo)
-	global.pontoDoDialogo += 1
+		if (global.bloquear = false)
+		{
+			instance_create_layer(x, y, "dialogo", obj_PlayerDialogo)
+			global.pontoDoDialogo += 1
+		}
 	}
 }
 
@@ -47,6 +50,7 @@ if (global.textoDialogo = "vamos tentar explodir o portal")
 if (global.textoDialogo = "todos devemos sair do abismo, ANDEM, TODOS VOLTEM")
 {
 	global.chegaDeDialogo = true
+	global.bloquear = true
 	
 	global.destino = rm_final
 	layer_sequence_create("sequences", 0, 0, sqn_indo_o_abismo_1)

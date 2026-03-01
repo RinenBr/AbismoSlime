@@ -1,6 +1,6 @@
 
 
-bloquear = false
+
 if (global.textoDialogo = "todos devemos sair do abismo, ANDEM, TODOS VOLTEM")
 {
 	instance_destroy()

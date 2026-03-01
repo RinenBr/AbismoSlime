@@ -20,6 +20,7 @@ global.chegaDeDialogo = false
 global.jaFoiCarta = true
 global.bossFoiInvocado = false
 global.travarInimigos = false
+global.bloquear = false
 
 
 global.gridSelecionada = 0
@@ -29,7 +30,8 @@ global.danoEspada = 35
 global.danoFogo = 100
 global.danoChamas = 25
 
-global.danoPicareta = 20
+global.danoPicareta = 15
+global.danoTeia = 75
 
 global.carta1posicionada = false
 global.carta2posicionada = false
