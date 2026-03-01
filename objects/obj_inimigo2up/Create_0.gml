@@ -2,6 +2,7 @@
 timer = true
 timer2 = true
 timer3 = true
+timer4 = true
 valor = false
 trava = true
 
